@@ -19,12 +19,15 @@ That's it!
 ## FAQs
 
 **Why do I have to close all browsers before launching the app?**
+
 Some browsers keep the certificates in a cached state  and this might result in you still keep seeing the invalid certificate error even after you apply the fix. So it's better to close your browsers before applying the fix.
 
 **Does this application require administrative privillages?**
+
 If you want to apply the fix only for your user account then no. If you want to apply the fix to all the accounts in your computer then yes. This is not an application limitation but a requirement from Windows.
 
 **Do you support multiple languages?**
+
 At the moment only Greek and English are supported. If you want another language to be added you can contact me or submit a pull request.
 
 **I still keep getting the same error even after I apply the fix. What should I do?**
