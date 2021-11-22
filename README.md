@@ -2,7 +2,7 @@
 On September 30th, 2021 the **DST Root CA X3** certificate expired causing many devices displaying an invalid certificate error, including websites and services using the [Let's Encrypt](https://letsencrypt.org/) certificates.
 Older devices that don't receive support from their manufacturer or have disabled their updates may expirience this issue and won't have an effective and fast way to mitigate this error.
 
-![Certificate error example](https://kinsta.com/wp-content/uploads/2020/07/NET-ERR_CERT_AUTHORITY_INVALID-error-in-chrome-1.png)
+![enter image description here](https://kinsta.com/wp-content/uploads/2020/07/NET-ERR_CERT_AUTHORITY_INVALID-error-in-chrome-1.png)
 
 ## What is dstcertfix?
 The **dstcertfix** application allows the user to automatically remove the old / expired certificate and install the new one. This enables non-technical users (even tech savvy ones that are simply bored to deal with this) to mitigate the error without having them to dig through all the steps required to do so.
@@ -26,11 +26,12 @@ Some browsers keep the certificates in a cached state  and this might result in 
 
 If you want to apply the fix only for your user account then no. If you want to apply the fix to all the accounts in your computer then yes. This is not an application limitation but a requirement from Windows.
 
-**Do you support multiple languages?**
+**Do you support multiple languages?** 
 
-At the moment only Greek and English are supported. If you want another language to be added you can contact me or submit a pull request.
+At the moment only Greek and English are supported. If you want another language to be added you can [contact me](mailto:me@giannisftaras.dev) or submit a pull request.
 
 **I still keep getting the same error even after I apply the fix. What should I do?**
+
  - Make sure you have closed all browsers before applying the fix, even if your browser name is not mentioned above
  - Restart your computer and check if the issue persists
 
@@ -38,6 +39,16 @@ If you keep getting errors even after following the above recommendations you ca
 
 **Where can I just download the new certificate?**
 You can download it directly from the Let's Encrypt server here: https://letsencrypt.org/certs/isrgrootx1.der
+
+## Compatibility ##
+Tested on:
+
+ - Windows 7 x86 (32 bit)
+ - Windows 7 x64 (64 bit)
+ - Windows 10 x86 (32 bit)
+ - Windows 10 x64 (64 bit)
+
+Operating system editions (Home, Professional, etc.) should not pose an issue. If you encounter a problem create an issue on Github or [contact me](mailto:me@giannisftaras.dev).
 
 ## Honorable mentions ##
 If you want to apply the fix manually you can [follow this guide](https://techglimpse.com/dst-root-ca-x3-expired-certificate-error/). This is the same guide I used the first time I fixed the issue and helped me to safely download the new certificate.
@@ -54,6 +65,9 @@ v1.0.0 (22/11/2021) - Initial release
 
 ## Checksums ##
 v1.0.0 
- 1. MD5: 8318998A1B7DC274353647B6110664B1
- 2. SHA1: 938F46B5D3392720CD863E17CA860459F0BE3F8E
- 3. SHA256: C97D9C29D8C985C33FC75784E34A8F7DA001A7462A4B56FE929326E040C6D4AF
+ 1. MD5: -
+ 2. SHA1: -
+ 3. SHA256: -
+
+## Licence ##
+The application is open source and published under the Apache 2.0 licence. You can take it, use it, copy it, change the code and do whatever you like.
