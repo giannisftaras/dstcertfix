@@ -63,11 +63,5 @@ The application uses icons from [Flaticon](https://www.flaticon.com/):
 ## Changelog ##
 v1.0.0 (22/11/2021) - Initial release
 
-## Checksums ##
-v1.0.0 
- 1. MD5: -
- 2. SHA1: -
- 3. SHA256: -
-
 ## Licence ##
 The application is open source and published under the Apache 2.0 licence. You can take it, use it, copy it, change the code and do whatever you like.
